@@ -50,7 +50,9 @@ class Owner
     buy = Dog.new(name, self)
   end
 
-  # def walk_dogs
-  #   self.dogs.each
+  def walk_dogs
+    self.dogs.each do |dog|
+      "happy"
+    end 
 
 end
