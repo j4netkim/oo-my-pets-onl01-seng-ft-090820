@@ -60,6 +60,8 @@ class Owner
     self.cats.each do |cat|
       cat.mood = "happy"
     end
-  end 
+  end
+
+  def sell_pets
 
 end
